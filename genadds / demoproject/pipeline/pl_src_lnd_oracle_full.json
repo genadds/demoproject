@@ -1,5 +1,5 @@
 {
-	"name": "pipeline2",
+	"name": "pl_src_lnd_oracle_full",
 	"properties": {
 		"folder": {
 			"name": "src_to_landing"
