@@ -1,0 +1,16 @@
+{
+	"name": "AzureKeyVault1",
+	"properties": {
+		"parameters": {
+			"ABC": {
+				"type": "string",
+				"defaultValue": "123"
+			}
+		},
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://testkeyvaltsp.vault.azure.net/"
+		}
+	}
+}
