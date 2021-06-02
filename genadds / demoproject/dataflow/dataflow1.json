@@ -11,10 +11,10 @@
 			"sinks": [],
 			"transformations": [
 				{
-					"name": "pivotcount"
+					"name": "pivotcountasd"
 				}
 			],
-			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false) ~> source1\nsource1 pivot(columnNaming: '$N$V',\n\tlateral: true) ~> pivotcount"
+			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false) ~> source1\nsource1 pivot(columnNaming: '$N$V',\n\tlateral: true) ~> pivotcountasd"
 		}
 	}
 }
