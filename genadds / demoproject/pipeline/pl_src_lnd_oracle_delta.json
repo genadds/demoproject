@@ -1,0 +1,9 @@
+{
+	"name": "pl_src_lnd_oracle_delta",
+	"properties": {
+		"folder": {
+			"name": "src_to_landing"
+		},
+		"annotations": []
+	}
+}
